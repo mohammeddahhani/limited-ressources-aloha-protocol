@@ -42,3 +42,6 @@ Tested with gcc version 5.4.0.
 `./compile.sh`
 
 `./success_rate n ns` where `n` is the number of contending stations and `ns` the number of time slots
+
+
+
