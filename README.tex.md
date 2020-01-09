@@ -11,7 +11,7 @@ Since all stations are contending over the same number of ressource, a collision
 At the begining, all stations start by uniformly choosing a random backoff in $[0,N_s-1]$.
 When multiple stations choose the same backoff value they collide and their transmission fails. As a consesequence each colliding station performs another backoff by uniformly selecting a number in $[0,N_s-1]$ and wait a corresponding number of time slots before trying again.
 
-We aim to find the probability distribution of the number of success transmissions once all collisions have been resolved.
+This process repeats until all collisions are resolved in which case we want to know how many stations succeeded their transmissions. That is, we are want to find the probability distribution of the number of successfull transmissions once all collisions have been resolved.
 
 # Model Description 
 
@@ -33,16 +33,16 @@ In this case, we can imagine that such a station choses a imaginary time slot be
 <div style="text-align:center"><img src="https://github.com/mohammeddahhani/limited-ressources-Aloha-protocol/blob/master/exact_model.png" width="500" height="250"/></div>
 
 Now let $n=(n_1,n_2,...,n_{N_s},n_{\phi})$ be any possible state of the systems such that  $\sum_{i=1}^{N} n_i } + n_{\phi} = N$, where $n_{\phi}$ is the number of stations that chose the imaginary slot.
-As the follwing figure shows, if $n_i > 1$ the $n_i$ stations will uniformly be distributed over the $N-i+1$ remaining slots:
+As the above figure shows, if $n_i > 1$ the $n_i$ collding stations will uniformly be distributed over the $N-i+1$ remaining slots.
 
 
 # Algorithmic Solution:
 
-Our algorithm iteratively runs the process described in the figure above for a given number of stations $N$ and time slots $N_s$ until all collisions are resolved. We use it to compute the probability of having $k$ success given $N$ and $N_s$.
+Our algorithm iteratively runs the process described in the figure above for a given number of stations $N$ and time slots $N_s$ until all collisions are resolved. We use it to compute the expected number of having $k$ success given $N$ and $N_s$.
 
 # Requirements:
 
-A working installation the GNU C++ Compiler is required.
+A working installation of the GNU C++ Compiler is required.
 
 Tested with gcc version 5.4.0. 
 
