@@ -3,7 +3,7 @@
 This repository contains an algorithm to compute the expected number of successful transmissions in a limited-ressource 
 Aloha channel with a finite number of contending stations
 
-# Problem definition:
+# Problem Definition:
 
 $N$ stations are trying to transmit a packet over one of the $N_s$ available time slots.
 Since all stations are contending over the same number of ressource, a collision may occur between two or multiple transmitting stations in which case their retransmit again.
@@ -13,7 +13,7 @@ When multiple stations choose the same backoff value they collide and their tran
 
 We aim to find the probability distribution of the number of success transmissions once all collisions have been resolved.
 
-# Model description 
+# Model Description 
 
 Let $n=(n_1,n_2,...,n_{N_s})$ be a possible initial state of the system where $n_i$ is the number of stations that chose slot $i$. We have  $\sum_{i=1}^{N} n_i } = N$ . The probability of a possible initial state is:
 
@@ -36,7 +36,7 @@ Now let $n=(n_1,n_2,...,n_{N_s},n_{\phi})$ be any possible state of the systems 
 As the follwing figure shows, if $n_i > 1$ the $n_i$ stations will uniformly be distributed over the $N-i+1$ remaining slots:
 
 
-# Algorithmic solution:
+# Algorithmic Solution:
 
 Our algorithm iteratively runs the process described in the figure above for a given number of stations $N$ and time slots $N_s$ until all collisions are resolved. We use it to compute the probability of having $k$ success given $N$ and $N_s$.
 
