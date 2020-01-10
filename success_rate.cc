@@ -1,3 +1,8 @@
+/*
+ * author: mdahhani
+ * mail: med.dahhani@gmail.com
+ */
+		
 #include <stdio.h>
 #include <stdlib.h>
 #include <iomanip>
