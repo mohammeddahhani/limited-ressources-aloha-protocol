@@ -39,7 +39,7 @@ As the above figure shows if $n_i > 1$, the $n_i$ collding stations will uniform
 
 # Algorithmic Solution:
 
-Our algorithm iteratively runs the process described in the figure above for a given number of stations time slots until all collisions are resolved. We use it to compute the expected number of having $k$ success given $N$ and $N_s$.
+Our algorithm iteratively runs the process described in the figure above for a given number of stations and time slots until all collisions are resolved. We use it to compute the expected number of successful transmissions given $N$ and $N_s$.
 
 # Requirements:
 
