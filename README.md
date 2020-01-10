@@ -21,7 +21,7 @@ Let <img src="/tex/59f3a42931cc7c8e988fc88011c1f47d.svg?invert_in_darkmode&sanit
 <p align="center"><img src="/tex/c6bd088e95ff412f19d37bdbf7252e72.svg?invert_in_darkmode&sanitize=true" align=middle width=524.63264205pt height=45.87321255pt/></p>
 
 A station that collides and choose a backoff greater or equal than the number of remaining slots will quite the race and won't be able to succeed its transmission.
-In this case, we can imagine that such a station choses an imaginary time slot beyond tha last time slot in which all transmission are destined to fail. 
+In this case, we can imagine that such a station choses an imaginary time slot <img src="/tex/f50853d41be7d55874e952eb0d80c53e.svg?invert_in_darkmode&sanitize=true" align=middle width=9.794543549999991pt height=22.831056599999986pt/> beyond tha last time slot in which all transmission are destined to fail. 
 
 <div style="text-align:center"><img src="https://github.com/mohammeddahhani/limited-ressources-Aloha-protocol/blob/master/exact_model.png" width="500" height="250"/></div>
 
@@ -45,5 +45,6 @@ Tested with gcc version 5.4.0.
 `./success_rate n ns` where `n` is the number of contending stations and `ns` the number of time slots
 
 # References:
-[1] "IEEE Standards 802.11ad-2012: Enhancements for Very High Throughput in the 60 GHz Band", 2012.
-[2] Richard P. Stanley, "Enumerative Combinatorics: Volume 1", Wadsworth & Brooks/Cole, 1986.
+**[1]** "IEEE Standards 802.11ad-2012: Enhancements for Very High Throughput in the 60 GHz Band", 2012.
+
+**[2]** Richard P. Stanley, "Enumerative Combinatorics: Volume 1", Wadsworth & Brooks/Cole, 1986.
