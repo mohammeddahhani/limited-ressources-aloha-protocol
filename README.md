@@ -31,7 +31,7 @@ As the above figure shows if <img src="/tex/ddc076dcde48b1b39299b8bf536b0b73.svg
 
 # Algorithmic Solution:
 
-Our algorithm iteratively runs the process described in the figure above for a given number of stations time slots until all collisions are resolved. We use it to compute the expected number of having <img src="/tex/63bb9849783d01d91403bc9a5fea12a2.svg?invert_in_darkmode&sanitize=true" align=middle width=9.075367949999992pt height=22.831056599999986pt/> success given <img src="/tex/f9c4988898e7f532b9f826a75014ed3c.svg?invert_in_darkmode&sanitize=true" align=middle width=14.99998994999999pt height=22.465723500000017pt/> and <img src="/tex/29fb78801f1c792da0c00b3ed4246275.svg?invert_in_darkmode&sanitize=true" align=middle width=19.41213779999999pt height=22.465723500000017pt/>.
+Our algorithm iteratively runs the process described in the figure above for a given number of stations and time slots until all collisions are resolved. We use it to compute the expected number of successful transmissions given <img src="/tex/f9c4988898e7f532b9f826a75014ed3c.svg?invert_in_darkmode&sanitize=true" align=middle width=14.99998994999999pt height=22.465723500000017pt/> and <img src="/tex/29fb78801f1c792da0c00b3ed4246275.svg?invert_in_darkmode&sanitize=true" align=middle width=19.41213779999999pt height=22.465723500000017pt/>.
 
 # Requirements:
 
