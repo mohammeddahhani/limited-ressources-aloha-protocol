@@ -50,7 +50,9 @@ Tested with gcc version 5.4.0.
 # Usage:
 `./compile.sh`
 
-`./success_rate n ns` where `n` is the number of contending stations and `ns` the number of time slots
+`./success_rate n ns` where `n` is the number of contending stations and `ns` the number of time slots.
+
+Results are logged in `success_ns_slots.proba`
 
 # References:
 **[1]** "IEEE Standards 802.11ad-2012: Enhancements for Very High Throughput in the 60 GHz Band", 2012.
