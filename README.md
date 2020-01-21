@@ -2,7 +2,7 @@
 
 This repository contains an algorithm to compute the expected number of successful transmissions in a limited-ressource 
 Aloha channel with a finite number of contending stations.
-The A-BFT beamforming training defined by the IEEE standard **[1]** is based on medium access method similar to that of the slotted Aloha protocol to resolve contension between multiple stations.
+The A-BFT beamforming training defined by the IEEE standard **[1]** is based on a medium access method inspired from and similar to that of the slotted Aloha protocol to resolve contensions in the uplink.
 
 # Problem Definition:
 
