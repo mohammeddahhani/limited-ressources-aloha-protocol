@@ -50,3 +50,7 @@ Results are logged in `success_ns_slots.proba`
 **[1]** "IEEE Standards 802.11ad-2012: Enhancements for Very High Throughput in the 60 GHz Band", 2012.
 
 **[2]** Richard P. Stanley, "Enumerative Combinatorics: Volume 1", Wadsworth & Brooks/Cole, 1986.
+
+**[3]** https://ieeexplore.ieee.org/document/9142751
+
+**[4]** https://ieeexplore.ieee.org/document/9349764/
